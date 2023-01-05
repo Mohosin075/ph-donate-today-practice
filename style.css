@@ -56,14 +56,19 @@
     font-weight: 800;
 }
 
-
 .banner-details p {
     color: #fff;
+    margin-bottom: 50px;
 }
 
+.more ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
 /* donate today */
 .donate-today {
-    padding: 100px 0;
+    padding: 80px 0;
     text-align: center;
 }
 
@@ -91,7 +96,10 @@
     border: 2px solid #FF5959;
     border-radius: 5px;
 }
-
+.amount .active-ammount{
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+}
 .amount input {
     width: 15%;
     margin-top: 20px;
@@ -112,7 +120,7 @@
 
 .our-plan {
     text-align: center;
-    padding: 50px 0;
+    padding: 40px 0;
 }
 
 .donate-card {
